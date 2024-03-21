@@ -40,7 +40,7 @@ def get_upcoming_birthdays(users):
 
 upcoming_birthdays = get_upcoming_birthdays(users)
 for user in upcoming_birthdays:
-     print(f"У {user['name']} день народження: {user['congratulation_date']}")
+     print(f"У {user["name"]} день народження: {user["congratulation_date"]}")
 
 
 
